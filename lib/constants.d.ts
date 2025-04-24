@@ -1,5 +1,5 @@
 export declare const AUTHENTICATION = true;
-export declare const kendraIndexName = "prod-mec";
-export declare const cognitoDomainName = "mec-chatbot-auth";
+export declare const kendraIndexName = "hhs-itops";
+export declare const cognitoDomainName = "itops-chatbot";
 export declare const OIDCIntegrationName = "";
-export declare const stackName = "MECKnowledgeStack";
+export declare const stackName = "ITOPSKnowledgeStack";

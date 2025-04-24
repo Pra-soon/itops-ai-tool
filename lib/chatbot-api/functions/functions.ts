@@ -77,8 +77,8 @@ export class LambdaFunctionStack extends cdk.Stack {
         'dynamodb:Query',
         'dynamodb:Scan'
       ],
-      resources: ['arn:aws:dynamodb:us-east-1:807596108910:table/mec-chatbot-logs',
-        'arn:aws:dynamodb:us-east-1:807596108910:table/mec-chatbot-logs' + "/index/*"]
+      resources: ['arn:aws:dynamodb:us-east-1:807596108910:table/itops-chatbot-logs',
+        'arn:aws:dynamodb:us-east-1:807596108910:table/itops-chatbot-logs' + "/index/*"]
     }));
 
     this.kpiFunction = kpiAPIHandlerFunction;
@@ -144,7 +144,7 @@ export class LambdaFunctionStack extends cdk.Stack {
       actions: [
         's3:GetObject'
       ],
-      resources: ['arn:aws:iam::807596108910:role/MECKnowledgeStack-ChatbotAPIKendraIndexRole0A5CCA00-mOwqNPZz42yg/*']
+      resources: ['arn:aws:iam::807596108910:role/ITOPSKnowledgeStack-ChatbotAPIKendraIndexRole0A5CCA00-mOwqNPZz42yg/*']
     }));
         
     this.chatFunction = websocketAPIFunction;
