@@ -1,0 +1,5 @@
+node_modules
+lib/user-interface/app/aws-exports.jsonnpm
+lib/user-interface/app/public/aws-exports.json
+aws-export.json
+cdk.out

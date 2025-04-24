@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mectool-dev-91f27-authRole",
+      "UnauthRoleArn": "arn:aws:iam::807596108910:role/amplify-mectool-dev-91f27-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::807596108910:role/amplify-mectool-dev-91f27-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mectool-dev-91f27-deployment",
+      "UnauthRoleName": "amplify-mectool-dev-91f27-unauthRole",
+      "StackName": "amplify-mectool-dev-91f27",
+      "StackId": "arn:aws:cloudformation:us-east-1:807596108910:stack/amplify-mectool-dev-91f27/a6b8d840-6a04-11ef-9c8d-0affc18fd283",
+      "AmplifyAppId": "d2e99swxzdprjs"
+    },
+    "categories": {
+      "auth": {
+        "mectool9c811e8f": {}
+      }
+    }
+  }
+}

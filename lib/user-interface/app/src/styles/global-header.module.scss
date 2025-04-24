@@ -1,0 +1,11 @@
+.navLogo {
+  :is(img[alt*="Logo"]) {
+    height: 200px !important;
+    width: auto;
+  }
+}
+
+/* Target only the dynamically generated class based on the prefix awsui_title */
+[id="awsui-top-navigation"] .awsui_title {
+  font-size: 12px !important;
+}
