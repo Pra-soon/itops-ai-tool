@@ -116,7 +116,7 @@ export default function GlobalHeader() {
           identity={{
             href: "/",
             logo: { src: "/images/mayflower/stateseal-white.png", alt: CHATBOT_NAME + " Logo" },
-            title: "MEC Knowledge Tool",
+            title: "ITOPS Inquiry Tool",
           }}
           utilities={[
             // {
